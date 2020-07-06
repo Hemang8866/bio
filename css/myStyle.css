@@ -1,0 +1,25 @@
+.acme{
+	font-family: 'Acme', sans-serif;
+}
+.arvo{
+	font-family: 'Arvo', sans-serif;
+	
+}
+.ws{
+	font-family: 'Work Sans', sans-serif;
+}
+.gl{
+	font-family: 'Galada', cursive;
+}
+.red{
+	color:#dc3545;
+}
+.indigo{
+	color:indigo;
+}
+.sdo{
+	box-shadow: 0 0 20px #fff;
+}
+.sdoi{
+	box-shadow: 0 0 4px indigo;
+}
