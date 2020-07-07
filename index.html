@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
    <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" type="text/css" href="css/myStyle.css">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
       <link href="https://fonts.googleapis.com/css2?family=Acme&family=Arvo:wght@700&family=Work+Sans&family=Galada&display=swap" rel="stylesheet">
@@ -9,16 +9,16 @@
       <title>Hemang Prajapati - Personal Info</title>
    </head>
    <body>
-      <div class="jumbotron card card-image rounded-0 border-0 py-0" style="background-image: url(images/22593.jpg); background-size: cover;">
+      <div class="jumbotron card card-image rounded-0 border-0 py-0 landing-image">
          <div class="text-white text-center">
             <div class="text-center">
                <img src="images/avatar.png" class="img-fluid" width="128" height="128"/>
             </div>
             <div>
-               <h2 class="card-title h1-responsive pt-3 mb-5 font-bold acme"><strong class="text-dark">Hello!<br> I'm <span class="gl" style="color:red;">Hemang Prajapati</span> here..</strong></h2>
+               <h2 class="card-title h1-responsive pt-3 mb-5 font-bold acme"><strong class="text-dark">Hello!<br> I'm <span class="gl red">Hemang Prajapati</span> here..</strong></h2>
                <p class="mx-5 mb-5 arvo lead text-dark">A passionate guy with dream of becoming a successful software expert, pursuing development phase in <br>WEB TECHNOLOGIES.
                </p>
-               <a href="#start"><button class="btn btn-light btn-lg acme rounded-0" style="border:none;"><i class="fas fa-arrow-circle-down fa-fw"></i>&nbsp;&nbsp; Explore more about myself! </button></a>
+               <a href="#start"><button class="btn btn-light btn-lg acme rounded-0 b-none"><i class="fas fa-arrow-circle-down fa-fw"></i>&nbsp;&nbsp; Explore more about myself! </button></a>
             </div>
          </div>
       </div>
@@ -29,8 +29,8 @@
             </div>
             <div class="col-md-4 mt-0 arvo">
                <h1 class="text-success">Skills</h1>
-               <hr style="border:2px solid #5cb354;" />
-               <ul class="square lead ws" style="color:#5cb354;">
+               <hr class="skills-border"/>
+               <ul class="square lead ws green">
                   <li> Programming </li>
                   <li> Software Installation </li>
                   <li> Troubleshooting </li>
@@ -40,24 +40,24 @@
             </div>
          </div>
       </div>
-      <div class="jumbotron card card-image img-fluid rounded-0 border-0 mb-0" style="background-image: url(patterns/p3.png); background-size: cover;  ">
+      <div class="jumbotron card card-image img-fluid rounded-0 border-0 mb-0 achievements-image">
          <h3 class="text-white text-center arvo mb-5"> <i class="fas fa-trophy fa-fx mr-3"></i> Achievements </h3>
          <div id="myCarouselInterval" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                <div class="carousel-item active text-center" data-interval="10000">
-                  <img src="images/cdac.png" class="img-fluid" alt="WEB DEVELOPMENT" width="480" height="320">
+                  <img src="images/cdac.png" class="img-fluid carousel-image-size" alt="WEB DEVELOPMENT">
                </div>
                <div class="carousel-item text-center" data-interval="2000">
-                  <img src="images/php.png" class="img-fluid" alt="PHP" width="480" height="320">
+                  <img src="images/php.png" class="img-fluid carousel-image-size" alt="PHP">
                </div>
                <div class="carousel-item text-center" data-interval="2000">
-                  <img src="images/cyb.png" class="img-fluid" alt="CYBER SECURITY" width="480" height="320">
+                  <img src="images/cyb.png" class="img-fluid carousel-image-size" alt="CYBER SECURITY">
                </div>
                <div class="carousel-item text-center" data-interval="2000">
-                  <img src="images/int.png" class="img-fluid" alt="INTERNSHIP" width="480" height="320">
+                  <img src="images/int.png" class="img-fluid carousel-image-size" alt="INTERNSHIP">
                </div>
                <div class="carousel-item text-center" data-interval="2000"> 
-                  <img src="images/drs.png" class="img-fluid" alt="WEB DESIGNING" width="480" height="320">
+                  <img src="images/drs.png" class="img-fluid carousel-image-size" alt="WEB DESIGNING">
                </div>
             </div>
             <a class="carousel-control-prev" href="#myCarouselInterval" role="button" data-slide="prev">
@@ -70,76 +70,48 @@
             </a>
          </div>
       </div>
-      <div style="background-image: url(patterns/p5.png);">
-      <div class="container">
-      <div class="row">
-      	<div class="col-md-5">
-
-
-            <div class="card p-4 rounded-0 border-0 bg-transparent">
-
-               <div class="card-body">
-
-                  <h3 class="card-title arvo indigo" style="border-bottom: 2px solid indigo; padding-bottom: 2px;">Contact US</h3>
-
-                  <p class="card-text ws indigo lead mb-4"> Get in touch with me. You can contact me for any kind of Web related queries.</p>
-
-                  <div class="input-group rounded-0 mb-5 sdoi" style="border:none;">
-
-                     <input type="text" name="contact" class="form-control border-0 rounded-0" placeholder="Enter your email" aria-describedby="email" required/>
-
-                     <div class="input-group-append">
-
-                        <span class="input-group-text border-0 rounded-0" style="background-color: indigo;">
-                           <a type="submit" href="mailto:hemangkoshiyar112@gmail.com" />
-                           <i class="fas fa-envelope fa-fw text-center" style="color:#fff;"></i>
-                        </a>
-                     </span>
-
+      <div class="contact-image">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-5">
+                  <div class="card p-4 rounded-0 border-0 bg-transparent">
+                     <div class="card-body">
+                        <h3 class="card-title arvo indigo ctus-br">Contact US</h3>
+                        <p class="card-text ws indigo lead mb-4"> Get in touch with me. You can contact me for any kind of Web related queries.</p>
+                        <div class="input-group rounded-0 mb-5 sdoi" style="border:none;">
+                           <input type="text" name="contact" class="form-control border-0 rounded-0" placeholder="Enter your email" aria-describedby="email" required/>
+                           <div class="input-group-append">
+                              <span class="input-group-text border-0 rounded-0 bg-indigo">
+                              <a type="submit" href="mailto:hemangkoshiyar112@gmail.com" />
+                              <i class="fas fa-envelope fa-fw text-center text-white"></i>
+                              </a>
+                              </span>
+                           </div>
+                        </div>
+                        <p class="lead arvo indigo" > Follow me </p>
+                        <div class="d-flex justify-content-start">
+                           <a href="https://www.facebook.com/hemang.prajapati.944" target="_blank"><i class="fab fa-facebook fa-2x mr-4 fb"></i></a>
+                           <a href="https://www.twitter.com/HemangKoshiyar" target="_blank"><i class="fab fa-twitter fa-2x mr-4 tw"></i></a>
+                           <a href="https://www.youtube.com/channel/UCWoS8N0Ydhv8eJlHC2ZxGRA" target="_blank"><i class="fab fa-youtube fa-2x yt"></i></a>
+                        </div>
                      </div>
-
                   </div>
-
-
-                     <p class="lead arvo indigo" > Follow me </p>
-
-                     <div class="d-flex justify-content-start">
-                        <a href="https://www.facebook.com/hemang.prajapati.944" target="_blank"><i class="fab fa-facebook fa-2x mr-4" style="color:#3b5998"></i></a>
-                        <a href="https://www.twitter.com/HemangKoshiyar" target="_blank"><i class="fab fa-twitter fa-2x mr-4" style="color:#00acee"></i></a>
-                        <a href="https://www.youtube.com/channel/UCWoS8N0Ydhv8eJlHC2ZxGRA" target="_blank"><i class="fab fa-youtube fa-2x" style="color:#c4302b"></i></a>
-                     </div>
-
-
-                  </div>
-
                </div>
-               
+               <!-- End of one column -->
+               <div class="col-md-7 d-flex justify-content-end">
+                  <img src="images/contact.jpg" class="img-fluid contact-image-size"/>
+               </div>
             </div>
-
-
-							<!-- End of one column -->
-
-					<div class="col-md-7 d-flex justify-content-end">
-						<img src="images/contact.jpg" class="img-fluid"  height="640" width="480" />
-					</div>
-
-
-
+         </div>
       </div>
-      </div>
-  </div>
-
-<footer>
-		<div class="d-flex justify-content-around pt-3 mb-0 bg-dark text-white">
-			
-			
-			<p class="lead ws">Design vector created by <a class="text-white" href="https://www.freepik.com/free-photos-vectors/design"><span class="font-weight-bold acme" style="color:gold;"> freepik </span></a></p>
-			<p class="lead gl">Made by <i class="fas fa-heart fa-fw red"></i> with <span style="color:gold;">Hemang</span></p>
-			<p class="lead gl"><i class="fas fa-copyright fa-fw mr-2"></i>Copyright 2020</p>
-		</div>
-	
-</footer>
-	<script src="https://kit.fontawesome.com/a4fc6912b1.js" crossorigin="anonymous"></script>
+      <footer>
+         <div class="d-flex justify-content-around pt-3 mb-0 bg-dark text-white">
+            <p class="lead ws">Design vector created by <a class="text-white" href="https://www.freepik.com/free-photos-vectors/design"><span class="font-weight-bold acme gold"> freepik </span></a></p>
+            <p class="lead gl">Made by <i class="fas fa-heart fa-fw red"></i> with <span class="gold">Hemang</span></p>
+            <p class="lead gl"><i class="fas fa-copyright fa-fw mr-2"></i>Copyright 2020</p>
+         </div>
+      </footer>
+      <script src="https://kit.fontawesome.com/a4fc6912b1.js" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
