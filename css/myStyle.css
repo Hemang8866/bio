@@ -1,25 +1,93 @@
-.acme{
+.acme {
 	font-family: 'Acme', sans-serif;
 }
-.arvo{
+
+.arvo {
 	font-family: 'Arvo', sans-serif;
-	
 }
-.ws{
+
+.ws {
 	font-family: 'Work Sans', sans-serif;
 }
-.gl{
+
+.gl {
 	font-family: 'Galada', cursive;
 }
-.red{
-	color:#dc3545;
+
+.red {
+	color: #dc3545;
 }
-.indigo{
-	color:indigo;
+
+.green {
+	color: #5cb354;
 }
-.sdo{
+
+.indigo {
+	color: indigo;
+}
+
+.bg-indigo {
+	background-color: indigo;
+}
+
+.gold {
+	color: gold;
+}
+
+.sdo {
 	box-shadow: 0 0 20px #fff;
 }
-.sdoi{
+
+.sdoi {
 	box-shadow: 0 0 4px indigo;
+}
+
+.landing-image {
+	background-image: url(images/22593.jpg);
+	background-size: cover;
+}
+
+.achievements-image {
+	background-image: url(patterns/p3.png);
+	background-size: cover;
+}
+
+.contact-image {
+	background-image: url(patterns/p5.png);
+	background-size: cover;
+}
+
+.carousel-image-size {
+	width: 480px;
+	height: 320px;
+}
+
+.contact-image-size {
+	width: 640px;
+	height: 480px;
+}
+
+.ctus-br {
+	border-bottom: 2px solid indigo;
+	padding-bottom: 2px;
+}
+
+.b-none {
+	border: none;
+}
+
+.skills-border {
+	border: 2px solid #5cb354;
+}
+
+.fb {
+	color: #3b5998;
+}
+
+.tw {
+	color: #00acee;
+}
+
+.yt {
+	color: #c4302b;
 }
